@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import {faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faReact} from '@fortawesome/free-brands-svg-icons';
 
 const FooterNav = ({
   className,
