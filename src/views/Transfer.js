@@ -35,7 +35,7 @@ const Transfer = ({
   // const [isNowTransfering, setIsNowTransfering] = useState(true);
 
   // const [beforeImg, setBeforeImg] = useState(preview_img);
-  const [afterImg, setAfterImg] = useState(null);
+  // const [afterImg, setAfterImg] = useState(null);
 
   useEffect(() => {
     if (selectedStyle) {
@@ -45,7 +45,7 @@ const Transfer = ({
 
       setBeforeImgData(form);
     }
-  }, [selectedStyle]);
+  }, []);
 
   const outerClasses = classNames(
     "hero section center-content",

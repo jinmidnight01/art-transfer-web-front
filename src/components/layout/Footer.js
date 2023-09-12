@@ -13,11 +13,11 @@ const defaultProps = {
 };
 
 const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
-  const classes = classNames(
-    "site-footer center-content-mobile",
-    topOuterDivider && "has-top-divider",
-    className
-  );
+  // const classes = classNames(
+  //   "site-footer center-content-mobile",
+  //   topOuterDivider && "has-top-divider",
+  //   className
+  // );
 
   return (
     <div
@@ -48,6 +48,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
             height: 200,
             width: 1000,
           }}
+          alt="left_bottom"
         />
       </div>
 
@@ -71,6 +72,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
             height: 200,
             width: 1000,
           }}
+          alt="right_bottom"
         />
       </div>
 
