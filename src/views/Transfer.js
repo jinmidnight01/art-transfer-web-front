@@ -45,7 +45,7 @@ const Transfer = ({
 
       setBeforeImgData(form);
     }
-  }, []);
+  }, [selectedStyle, beforeImgData]);
 
   const outerClasses = classNames(
     "hero section center-content",
